@@ -1,0 +1,11 @@
+Package: rfhc
+Title: Random field + Hardcore Gibbs model
+Version: 1.2
+Date: 2012-09-11
+Author: Tuomas Rajala
+Maintainer: Tuomas Rajala <tuomas.rajala@iki.fi>
+Depends: R (>= 2.0.0), Matrix, spatstat
+Suggests: RandomFields
+Description: Simulate and fit Hardcore Gibbs with local repulsion radii from a latent random field.
+License: GPL (>=2)
+Packaged: 2012-09-11 15:28:52 UTC; antiphon

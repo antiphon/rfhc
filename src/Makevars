@@ -1,0 +1,1 @@
+#PKG_LIBS=-ltaucs -llapack -L /usr/lib64/atlas

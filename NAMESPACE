@@ -1,0 +1,10 @@
+## export everything but things starting with "."
+exportPattern("^[^\\.]")
+
+exportClasses(rfhcFit, rfhcSim, rfhcField, rfhcFitSummary)
+exportMethods(rfhcSim, plot, plotRtraj, print)
+exportMethods(rfhcFit, plot, summary, print)
+exportMethods(rfhcFitSummary, plot, print)
+import(Matrix)
+
+useDynLib(rfhc)

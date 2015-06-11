@@ -1,0 +1,32 @@
+1.0 ??????:
+ - in Bitbucket with mercurial. Version log there.
+1.0 11/06/12:
+ - add RandomFields prediction as an alternative to the GMRF prediction. Slooww...
+ 
+0.9999 03/05/12:
+ - remove grid distance computation, obsolete and devours all memory.
+ 
+0.999 29/12/11:
+ - included adaptive intensity estimation from mmap
+ - added print-method for rfhcFitSummary
+ - added documentation
+0.99 13/12/11:
+ - fixed bugs in summary-function
+0.9 12/12/11:
+ - variogram rfhc.vgram
+0.8 2/12/11:
+ - std MMSE 
+0.7 1/12/11:
+ - R predicted saved separately from R observed to save space
+ 
+0.6 30/11/11:
+ - change back to version where we update Ro's by themselves
+0.5 29/11/11:
+ - fixed a bug in updating condition
+0.4 29/11/11:
+ - rename everythin simulation related to simulate*
+0.3 24/11/11:
+ - Ro Gibbs from Beta
+0.2-1 22/11/11:
+ - forked from rfhc2
+ - rewrite R code, Qmatrix.cpp intact
